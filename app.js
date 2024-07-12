@@ -4,6 +4,8 @@ let submitBtn = document.querySelector("#search-btn").addEventListener('click' ,
 
   event.preventDefault();
 
+  div.innerHTML=`<h2 class='text-green'>Loading....</h2>`
+
   
 axios(
   `http://api.weatherapi.com/v1/current.json?key=068cb42292994c9480f121502241107&q=${input.value}&aqi=no`
@@ -23,6 +25,10 @@ axios(
 
   .catch((err) => {
     console.log(err);
+    div.innerHTML = `<div class="weather-card " id="weather-card">
+        <h3 id="city-name">${input.value} is not found....</h3>
+    </div>`;
+    
   });
 
 })

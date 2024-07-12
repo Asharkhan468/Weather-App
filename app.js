@@ -8,7 +8,7 @@ let submitBtn = document.querySelector("#search-btn").addEventListener('click' ,
 
   
 axios(
-  `http://api.weatherapi.com/v1/current.json?key=068cb42292994c9480f121502241107&q=${input.value}&aqi=no`
+  `https://api.weatherapi.com/v1/current.json?key=068cb42292994c9480f121502241107&q=${input.value}&aqi=no`
 )
   .then((resp) => {
     div.innerHTML = ` <div class="weather-card " id="weather-card">

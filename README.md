@@ -1,6 +1,6 @@
 # Weather App
 
-![Weather App](https://via.placeholder.com/728x90.png?text=Weather+App)
+![Weather App](https://store-images.s-microsoft.com/image/apps.60423.13664108468657913.8218191b-9e2a-49f4-8455-3c027b985a5d.30a38556-a2f8-4e20-835b-d8d914491b8b)
 
 This repository provides a fully-functional and visually appealing weather application that allows users to get current weather information for any location.
 
